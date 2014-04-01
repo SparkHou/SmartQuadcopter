@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\Quadcopter workspace\user\Quadcopter.uvproj
+Project File Date:  03/29/2014
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+..\config\config.h(44): error:  #5: cannot open source input file "nrf24l01.h": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\init\main.c(36): error:  #5: cannot open source input file "system.h": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\init\main.c(58): warning:  #111-D: statement is unreachable
+..\init\main.c(110): error:  #20: identifier "LED_GPIO_RED" is undefined
+..\init\main.c(110): error:  #20: identifier "LED_GPIO_GREEN" is undefined
+..\init\main.c(116): error:  #20: identifier "LED_RED" is undefined
+..\init\main.c(117): error:  #20: identifier "LED_GREEN" is undefined
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\init\main.c(58): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=6836 RO-data=336 RW-data=104 ZI-data=19240  
+FromELF: creating hex file...
+"Quadcopter.axf" - 0 Error(s), 1 Warning(s).

@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\CMSIS\Core\CM3 -I..\STM32F10x_FWLib\inc -I..\FreeRTOS\include -I..\FreeRTOS\portable -I..\config -I..\drivers\interface -I..\hal\interface -I..\modules\interface -I..\utils\interface 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "core_cm3.o" --omf_browse "core_cm3.crf" --depend "core_cm3.d" "..\CMSIS\Core\CM3\core_cm3.c"

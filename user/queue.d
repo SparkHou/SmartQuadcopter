@@ -1,0 +1,14 @@
+queue.o: ..\FreeRTOS\queue.c
+queue.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+queue.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+queue.o: ..\FreeRTOS\include\FreeRTOS.h
+queue.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+queue.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+queue.o: ..\FreeRTOS\include\projdefs.h
+queue.o: ..\config\FreeRTOSConfig.h
+queue.o: ..\FreeRTOS\include\portable.h
+queue.o: ..\FreeRTOS\portable\portmacro.h
+queue.o: ..\FreeRTOS\include\mpu_wrappers.h
+queue.o: ..\FreeRTOS\include\task.h
+queue.o: ..\FreeRTOS\include\list.h
+queue.o: ..\FreeRTOS\include\queue.h
