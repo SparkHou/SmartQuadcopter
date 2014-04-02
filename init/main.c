@@ -43,7 +43,7 @@ int main()
 {
   //Low level init: Clock and Interrupt controller
   prvClockInit();
-  //nvicInit();
+  nvicInit();
   //initUsecTimer();
 
   //Launch the system task that will initialize and start everything

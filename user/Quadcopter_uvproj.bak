@@ -610,6 +610,13 @@
         </Group>
         <Group>
           <GroupName>driver</GroupName>
+          <Files>
+            <File>
+              <FileName>nvic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\drivers\src\nvic.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>hal</GroupName>
