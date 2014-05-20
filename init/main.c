@@ -36,6 +36,9 @@
 /* ST includes */
 #include "stm32f10x.h"
 
+#include "usec_time.h"
+#include "nvic.h"
+
 /* Private functions */
 static void prvClockInit(void);
 
@@ -44,7 +47,7 @@ int main()
   //Low level init: Clock and Interrupt controller
   prvClockInit();
   nvicInit();
-  //initUsecTimer();
+  initUsecTimer();
 
   //Launch the system task that will initialize and start everything
  // systemLaunch();

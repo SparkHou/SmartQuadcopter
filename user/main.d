@@ -36,3 +36,5 @@ main.o: ..\STM32F10x_FWLib\inc\stm32f10x_tim.h
 main.o: ..\STM32F10x_FWLib\inc\stm32f10x_usart.h
 main.o: ..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 main.o: ..\STM32F10x_FWLib\inc\misc.h
+main.o: ..\hal\interface\usec_time.h
+main.o: ..\drivers\interface\nvic.h

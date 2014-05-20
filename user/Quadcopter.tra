@@ -36,8 +36,9 @@
 ### List of Objects: adding '"heap_2.o"'
 ### List of Objects: adding '"main.o"'
 ### List of Objects: adding '"nvic.o"'
+### List of Objects: adding '"usec_time.o"'
 ### ADS-LD Command completed:
---cpu Cortex-M3 "startup_stm32f10x_hd.o" "system_stm32f10x.o" "core_cm3.o" "misc.o" "stm32f10x_adc.o" "stm32f10x_bkp.o" "stm32f10x_can.o" "stm32f10x_crc.o" "stm32f10x_dac.o" "stm32f10x_dbgmcu.o" "stm32f10x_dma.o" "stm32f10x_exti.o" "stm32f10x_flash.o" "stm32f10x_fsmc.o" "stm32f10x_gpio.o" "stm32f10x_i2c.o" "stm32f10x_iwdg.o" "stm32f10x_pwr.o" "stm32f10x_rcc.o" "stm32f10x_rtc.o" "stm32f10x_sdio.o" "stm32f10x_spi.o" "stm32f10x_usart.o" "stm32f10x_wwdg.o" "stm32f10x_cec.o" "stm32f10x_tim.o" "event_groups.o" "list.o" "queue.o" "tasks.o" "timers.o" "port.o" "heap_2.o" "main.o" "nvic.o" 
+--cpu Cortex-M3 "startup_stm32f10x_hd.o" "system_stm32f10x.o" "core_cm3.o" "misc.o" "stm32f10x_adc.o" "stm32f10x_bkp.o" "stm32f10x_can.o" "stm32f10x_crc.o" "stm32f10x_dac.o" "stm32f10x_dbgmcu.o" "stm32f10x_dma.o" "stm32f10x_exti.o" "stm32f10x_flash.o" "stm32f10x_fsmc.o" "stm32f10x_gpio.o" "stm32f10x_i2c.o" "stm32f10x_iwdg.o" "stm32f10x_pwr.o" "stm32f10x_rcc.o" "stm32f10x_rtc.o" "stm32f10x_sdio.o" "stm32f10x_spi.o" "stm32f10x_usart.o" "stm32f10x_wwdg.o" "stm32f10x_cec.o" "stm32f10x_tim.o" "event_groups.o" "list.o" "queue.o" "tasks.o" "timers.o" "port.o" "heap_2.o" "main.o" "nvic.o" "usec_time.o" 
 --strict --scatter "Quadcopter.sct" 
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
 --info sizes --info totals --info unused --info veneers 
@@ -45,7 +46,7 @@
 ### ADS-LD Output File: 'Quadcopter.axf'
 ### ADS-LD Command File: 'Quadcopter.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'Quadcopter.lnp', Handle=0x0000021C
+### Creating CmdFile 'Quadcopter.lnp', Handle=0x000003F4
 ### Writing '.lnp' file
 ### ADS-LD Command file 'Quadcopter.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
