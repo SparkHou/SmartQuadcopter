@@ -620,6 +620,13 @@
         </Group>
         <Group>
           <GroupName>hal</GroupName>
+          <Files>
+            <File>
+              <FileName>usec_time.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\hal\src\usec_time.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>modules</GroupName>
